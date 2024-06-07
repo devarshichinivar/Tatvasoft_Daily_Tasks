@@ -1,0 +1,4 @@
+C:\Users\pca242\source\repos\Books\Books.Services\obj\Debug\net8.0\Data_Access_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pca242\source\repos\Books\Books.Services\obj\Debug\net8.0\Data_Access_Layer.AssemblyInfoInputs.cache
+C:\Users\pca242\source\repos\Books\Books.Services\obj\Debug\net8.0\Data_Access_Layer.AssemblyInfo.cs
+C:\Users\pca242\source\repos\Books\Books.Services\obj\Debug\net8.0\Data_Access_Layer.csproj.CoreCompileInputs.cache

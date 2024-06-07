@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\books\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\migrations\\20240527090958_authmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240527090958_authmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\books\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\dalstatics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dalstatics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\books\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A6C09F-E857-4103-BAE9-74BAB3C612D4}|Books\\Books.csproj|solutionrelative:books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\repository\\entities\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\entities\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\repository\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\devar\\onedrive\\documents\\internship_tatvasoft\\.net\\books\\books\\dataaccesslayer\\repository\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F2A003-0A0C-4605-9B95-010CA29E4FE7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240527090958_AuthMig.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Migrations\\20240527090958_AuthMig.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240527090958_AuthMig.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Migrations\\20240527090958_AuthMig.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240527090958_AuthMig.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T09:09:58.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\AppDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:38:05.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\Program.cs",
+              "RelativeDocumentMoniker": "Books\\Program.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\Program.cs",
+              "RelativeToolTip": "Books\\Program.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:01:11.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\appsettings.json",
+              "RelativeDocumentMoniker": "Books\\appsettings.json",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\appsettings.json",
+              "RelativeToolTip": "Books\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:00:18.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Books\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Books\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:39:26.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\Entities\\UserInfo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Entities\\UserInfo.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\Entities\\UserInfo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Entities\\UserInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:36:18.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\Entities\\Books.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Entities\\Books.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\Entities\\Books.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Entities\\Books.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:53:37.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Books\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\Books\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Books\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T10:36:25.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\Entities\\UserLogin.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Entities\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Repository\\Entities\\UserLogin.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Entities\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:36:31.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Services\\BooksService.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\Services\\BooksService.cs",
+              "RelativeToolTip": "DataAccessLayer\\Services\\BooksService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:28:33.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DALStatics.cs",
+              "DocumentMoniker": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\DALStatics.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DALStatics.cs",
+              "ToolTip": "C:\\Users\\devar\\OneDrive\\Documents\\Internship_Tatvasoft\\.Net\\Books\\Books\\DataAccessLayer\\DALStatics.cs",
+              "RelativeToolTip": "DataAccessLayer\\DALStatics.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:37:08.777Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
