@@ -1,0 +1,6 @@
+[submodule "Day-2/BVM"]
+	path = Day-2/BVM
+	url = https://github.com/devarshichinivar/Tatvasoft_Daily_Tasks.git
+[submodule "Day-6_to_15/CIPlatfromWebAPI_PostgreSQL"]
+	path = Day-6_to_15/CIPlatfromWebAPI_PostgreSQL
+	url = https://github.com/devarshichinivar/Tatvasoft_Daily_Tasks.git
