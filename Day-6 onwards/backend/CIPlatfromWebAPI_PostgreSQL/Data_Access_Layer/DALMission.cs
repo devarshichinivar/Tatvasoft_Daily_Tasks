@@ -7,6 +7,8 @@ using System.Net;
 using System.Net.Mail;
 using System.Reflection;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Linq.Dynamic.Core;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Data_Access_Layer
 {
@@ -365,6 +367,78 @@ namespace Data_Access_Layer
             {
                 throw;
             }
+        }
+        public List<Missions> MissionClientList(SortestData data)
+        {
+            List<Missions> missionClientList = new List<Missions>();
+            try
+            {
+                var query = _cIDbContext.Missions
+                    .Where(m => !m.IsDeleted);
+
+                // Apply dynamic sorting based on SortestValue
+                switch (data.SortestValue)
+                {
+                    case "Newest":
+                        query = query.OrderByDescending(m => m.CreatedDate);
+                        break;
+                    case "Oldest":
+                        query = query.OrderBy(m => m.CreatedDate);
+                        break;
+                    case "Lowest":
+                        query = query.OrderBy(m => m.TotalSeats);
+                        break;
+                    case "Highest":
+                        query = query.OrderByDescending(m => m.TotalSeats);
+                        break;
+                    case "Registration":
+                        query = query.OrderByDescending(m => m.RegistrationDeadLine);
+                        break;
+                    default:
+                        query = query.OrderBy(m => m.Id); // Default sorting if no valid SortestValue is provided
+                        break;
+                }
+
+                missionClientList = query
+                    .Select(m => new Missions
+                    {
+                        Id = m.Id,
+                        MissionTitle = m.MissionTitle,
+                        MissionDescription = m.MissionDescription,
+                        MissionOrganisationDetail = m.MissionOrganisationDetail,
+                        MissionOrganisationName = m.MissionOrganisationName,
+                        CountryId = m.CountryId,
+                        CountryName = m.CountryName,
+                        CityId = m.CityId,
+                        CityName = m.CityName,
+                        StartDate = m.StartDate,
+                        EndDate = m.EndDate,
+                        MissionType = m.MissionType,
+                        TotalSeats = m.TotalSeats,
+                        RegistrationDeadLine = m.RegistrationDeadLine,
+                        MissionThemeId = m.MissionThemeId,
+                        MissionSkillId = m.MissionSkillId,
+                        MissionImages = m.MissionImages,
+                        MissionDocuments = m.MissionDocuments,
+                        MissionAvilability = m.MissionAvilability,
+                        MissionVideoUrl = m.MissionVideoUrl,
+                        MissionThemeName = m.MissionThemeName,
+                        MissionSkillName = string.Join(",", m.MissionSkillName),
+                        MissionStatus = m.RegistrationDeadLine < DateTime.Now.AddDays(-1) ? "Closed" : "Available",
+                        MissionApplyStatus = _cIDbContext.MissionApplication.Any(ma => ma.MissionId == m.Id && ma.UserId == data.UserId) ? "Applied" : "Apply",
+                        MissionApproveStatus = _cIDbContext.MissionApplication.Any(ma => ma.MissionId == m.Id && ma.UserId == data.UserId && ma.Status == true) ? "Approved" : "Applied",
+                        MissionDateStatus = m.EndDate <= DateTime.Now.AddDays(-1) ? "MissionEnd" : "MissionRunning",
+                        MissionDeadLineStatus = m.RegistrationDeadLine <= DateTime.Now.AddDays(-1) ? "Closed" : "Running",
+                        MissionFavouriteStatus = "0",
+                        Rating = 0,
+                    })
+                    .ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return missionClientList;
         }
     }
 }
