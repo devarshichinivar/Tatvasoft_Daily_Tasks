@@ -360,5 +360,39 @@ namespace Data_Access_Layer
             }
             return result;
         }
+        public string ChangePassword(ChangePassword changePassword)
+        {
+            string result = "";
+            try
+            {
+                int id = changePassword.UserId;
+                var user = _cIDbContext.User.FirstOrDefault(u => u.Id == changePassword.UserId && u.IsDeleted == false);
+                if (user != null)
+                {
+                    if (changePassword.OldPassword == user.Password)
+                    {
+                        if (changePassword.NewPassword == changePassword.ConfirmPassword)
+                        {
+                            user.Password = changePassword.ConfirmPassword;
+                            _cIDbContext.SaveChanges();
+                            result = "Password Changed Successfully!";
+                        }
+                        else
+                        {
+                            throw new Exception("New Password and Confirm Password do not match!");
+                        }
+                    }
+                    else
+                    {
+                        throw new Exception("Old Password is not correct!");
+                    }
+                }
+                return result;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
