@@ -122,6 +122,7 @@ namespace BackEnd.Controllers
             }
             return result;
         }
+
         [HttpPost]
         [Route("SendInviteMissionMail")]
         public ResponseResult SendInviteMissionMail(List<MissionShareOrInvite> user)
@@ -129,6 +130,40 @@ namespace BackEnd.Controllers
             try
             {
                 result.Data = _balMission.SendInviteMissionMail(user);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
+
+        [HttpPost]
+        [Route("AddMissionComment")]
+        public ResponseResult AddMissionComment(MissionComment missionComment)
+        {
+            try
+            {
+                result.Data = _balMission.AddMissionComment(missionComment);
+                result.Result = ResponseStatus.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Result = ResponseStatus.Error;
+                result.Message = ex.Message;
+            }
+            return result;
+        }
+
+        [HttpGet]
+        [Route("MissionCommentListByMissionId/{missionId}")]
+        public ResponseResult MissionCommentListByMissionId(int missionId)
+        {
+            try
+            {
+                result.Data = _balMission.MissionCommentListByMissionId(missionId);
                 result.Result = ResponseStatus.Success;
             }
             catch (Exception ex)
