@@ -16,6 +16,7 @@ declare var window:any;
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  searchText:any='';
   missionList:any[]=[];
   userList:any[]=[];
   page:number=1;

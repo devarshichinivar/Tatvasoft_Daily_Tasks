@@ -440,5 +440,33 @@ namespace Data_Access_Layer
             }
             return missionClientList;
         }
+        public Missions MissionDetailByMissionId(SortestData data)
+        {
+            try
+            {
+                var missionDetail = _cIDbContext.Missions
+                    .FirstOrDefault(m => m.Id == data.MissionId);
+
+                if (missionDetail != null)
+                {
+                    missionDetail.MissionSkillName = string.Join(",", missionDetail.MissionSkillName);
+                    missionDetail.MissionStatus = missionDetail.RegistrationDeadLine < DateTime.Now.AddDays(-1) ? "Closed" : "Available";
+                    missionDetail.MissionApplyStatus = _cIDbContext.MissionApplication
+                        .Any(ma => ma.MissionId == missionDetail.Id && ma.UserId == data.UserId) ? "Applied" : "Apply";
+                    missionDetail.MissionApproveStatus = _cIDbContext.MissionApplication
+                        .Any(ma => ma.MissionId == missionDetail.Id && ma.UserId == data.UserId && ma.Status == true) ? "Approved" : "Applied";
+                    missionDetail.MissionDateStatus = missionDetail.EndDate <= DateTime.Now.AddDays(-1) ? "MissionEnd" : "MissionRunning";
+                    missionDetail.MissionDeadLineStatus = missionDetail.RegistrationDeadLine <= DateTime.Now.AddDays(-1) ? "Closed" : "Running";
+                    missionDetail.MissionFavouriteStatus = "0";
+                    missionDetail.Rating = 0;
+                }
+
+                return missionDetail;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Failed to fetch mission details.", ex);
+            }
+        }
     }
 }

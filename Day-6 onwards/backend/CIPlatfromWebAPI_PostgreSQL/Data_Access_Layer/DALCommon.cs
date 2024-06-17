@@ -39,8 +39,13 @@ namespace Data_Access_Layer
         public async Task<List<DropDown>> MissionCountryListAsync()
         {
             return await _cIDbContext.Missions
-                .Include(m => m.CountryName)
-                .Select(m => new DropDown { Value = m.CountryId, Text = m.CountryName })
+                .Join(
+                    _cIDbContext.Country,
+                    mission => mission.CountryId,
+                    country => country.Id,
+                    (mission, country) => new { mission, country.CountryName }
+                )
+                .Select(mc => new DropDown { Value = mc.mission.CountryId, Text = mc.CountryName })
                 .Distinct()
                 .ToListAsync();
         }
@@ -48,9 +53,14 @@ namespace Data_Access_Layer
         public async Task<List<DropDown>> MissionCityListAsync()
         {
             return await _cIDbContext.Missions
-                .Include(m => m.CityName)
-                .Select(m => new DropDown { Value = m.CityId, Text = m.CityName })
-                .Distinct()
+                .Join(
+                    _cIDbContext.City,
+                    mission => mission.CityId,
+                    city => city.Id,
+                    (mission, city) => new { mission, city.CityName }
+                )
+                .Select(mc => new DropDown { Value = mc.mission.CityId, Text = mc.CityName })
+                //.Distinct()
                 .ToListAsync();
         }
 

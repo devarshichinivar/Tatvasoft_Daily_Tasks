@@ -24,7 +24,7 @@ export class SearchinSortingComponent implements OnInit {
 
   GetMissionCountryList(){
     this.service.GetMissionCountryList().subscribe((data:any)=>{
-      if(data.result == 1)
+      if(data.status == "Success")
       {
         this.missionCountryList = data.data;
       }
@@ -35,7 +35,7 @@ export class SearchinSortingComponent implements OnInit {
   }
   GetMissionCityList(){
     this.service.GetMissionCityList().subscribe((data:any)=>{
-      if(data.result == 1)
+      if(data.status == "Success")
       {
         this.missionCityList = data.data;
       }
@@ -47,7 +47,7 @@ export class SearchinSortingComponent implements OnInit {
   }
   GetMissionThemeList(){
     this.service.GetMissionThemeList().subscribe((data:any)=>{
-      if(data.result == 1)
+      if(data.status == "Success")
       {
         this.missionThemeList = data.data;
       }
@@ -59,7 +59,7 @@ export class SearchinSortingComponent implements OnInit {
   }
   GetMissionSkillList(){
     this.service.GetMissionSkillList().subscribe((data:any)=>{
-        if(data.result == 1){
+        if(data.status == "Success"){
           this.missionSkillList = data.data;
         }
         else
@@ -72,7 +72,7 @@ export class SearchinSortingComponent implements OnInit {
   {
     this.service.searchList.next(text);
   }
-  Onchange(e:any){
+  Onchange(e: any){
     this.service.searchList.next(e.target.value);
   }
 }
