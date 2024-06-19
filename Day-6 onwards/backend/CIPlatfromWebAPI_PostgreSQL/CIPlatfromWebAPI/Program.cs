@@ -44,6 +44,8 @@ builder.Services.AddScoped<BALMission>();
 builder.Services.AddScoped<BALCommon>();
 builder.Services.AddScoped<DALMission>();
 builder.Services.AddScoped<DALCommon>();
+builder.Services.AddScoped<DALStory>();
+builder.Services.AddScoped<BALStory>();
 builder.Services.AddScoped<JwtService>();
 
 builder.Services.AddCors(option =>

@@ -22,5 +22,6 @@ namespace Data_Access_Layer.Repository
         public DbSet<MissionFavourites> MissionFavourites { get; set; }
         public DbSet<MissionShareOrInvite> MissionShareOrInvite { get; set; }
         public DbSet<MissionComment> MissionComment { get; set; }
+        public DbSet<Story> Story { get; set; }
     }
 }
